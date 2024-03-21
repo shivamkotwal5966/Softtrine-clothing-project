@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Login from './components/Login'
+import OTPVerification from './components/VerifyOtp'
 
 import './App.css'
 
@@ -9,7 +10,8 @@ function App() {
   return (
     <>
    
-    <Login/>
+    {/* <Login/> */}
+    <OTPVerification />
     
     </>
   )
